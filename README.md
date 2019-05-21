@@ -25,15 +25,17 @@ prisma init db  //初始化prima
 
 ## 选择数据库类型(select MongoDB)
 > What kind of database do you want to deploy to? (Use arrow keys)
-* ❯ MySQL           MySQL compliant databases like MySQL or MariaDB
-* PostgreSQL        PostgreSQL database
-* MongoDB           Mongo Database
+* MySQL              MySQL compliant databases like MySQL or MariaDB
+* PostgreSQL         PostgreSQL database
+* ❯ MongoDB          Mongo Database
 
-*? Set up a new Prisma server or deploy to an existing server? Use existing database
-*? What kind of database do you want to deploy to? MongoDB
-*? Enter MongoDB connection string mongodb://localhost:27017
-*? Please select the schema you want to introspect yourdbname
-*? Select the programming language for the generated Prisma client Don't generate
+
+### 完成列表(completed list)
+* ? Set up a new Prisma server or deploy to an existing server? Use existing database
+* ? What kind of database do you want to deploy to? MongoDB
+* ? Enter MongoDB connection string mongodb://localhost:27017
+* ? Please select the schema you want to introspect yourdbname
+* ? Select the programming language for the generated Prisma client Don't generate
 
 ##  输入连接MongoDb (Connection details for MongoDB)
 > ? Enter MongoDB connection string
